@@ -1,0 +1,152 @@
+html {
+  font-size: 14px;
+  font-family: 'Roboto', serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1510px;
+  margin: 0 auto;
+}
+*,
+::before,
+:after,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* --------------------------------------Header------------------------------- */
+header {
+  padding: 10px 0;
+  background-color: #000;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s linear;
+}
+.header__nav-link:hover {
+  text-decoration: underline;
+  color: #e4e2e2;
+}
+
+.header__delivery {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header__delivery-item {
+  display: flex;
+  align-items: center;
+}
+
+.header__span {
+  margin-left: 10px;
+}
+
+.header__delivery-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ---------------------------------------/Header------------------------------- */
+
+/* --------------------------------------Search------------------------------- */
+.search {
+  margin: 20px 0;
+}
+
+.search__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-block {
+  position: relative;
+}
+.search__input {
+  width: 839px;
+  padding: 17px 0 17px 49px;
+}
+
+.search-icon {
+  display: flex;
+  position: absolute;
+  left: 15px;
+  top: calc(50% - 7px);
+}
+
+.search__icons {
+  display: flex;
+  gap: 30px;
+}
+
+/* --------------------------------------/Search------------------------------- */
+
+/* --------------------------------------Menu------------------------------- */
+.menu {
+  margin-bottom: 50px;
+}
+
+.menu__inner {
+  padding: 24px 40px;
+  display: flex;
+
+  gap: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.menu__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #414141;
+  font-size: 16px;
+}
+
+.menu__span {
+  font-size: 16px;
+}
+
+.menu__span_red {
+  color: #d74444;
+}
+
+/* --------------------------------------/Menu------------------------------- */
+
+/* --------------------------------------Slider------------------------------- */
+
+.slider__inner {
+  background-image: url(../img/slider/1.png);
+  width: 1140px;
+  height: 450px;
+}
+
+/* --------------------------------------/Slider------------------------------- */
