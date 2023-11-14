@@ -285,6 +285,7 @@ header {
 .hit__item {
   /* width: calc(25% - 22px); */
   width: 263px;
+  height: 355px;
   margin-bottom: 53px;
   position: relative;
   cursor: pointer;
@@ -293,15 +294,20 @@ header {
 
 .hit__item:hover {
   box-shadow: 0 1px 9px rgba(0, 0, 0, 0.11);
-  transform: scale(1.2) translateY(55px);
+  height: 488px;
+  transform: translateY(-20px);
 }
+
 .hit__item:hover .hit__info_hover {
   display: block;
+  /* width: 263px; */
+  /* margin-left: 0; */
+  /* padding-left: 20px; */
 }
 
 .hit__like-link {
   position: absolute;
-  top: -8px;
+  top: 0;
   right: 11px;
 }
 
@@ -315,17 +321,19 @@ header {
 
 .hit__img {
   margin: 42px 32px 54px;
+  cursor: pointer;
 }
 
 .hit__info {
-  margin-left: 20px auto 32px;
+  margin: 0 20px 32px;
   font-weight: 500;
   font-size: 16px;
 }
 
 .hit__info_hover {
-  margin-top: 15px;
   display: none;
+  position: relative;
+  transition: all 0.2s linear;
 }
 
 .hit__title {
