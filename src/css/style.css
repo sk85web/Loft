@@ -295,6 +295,10 @@ header {
   background-color: #fff;
 }
 
+.hit__item:hover {
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.11);
+}
+
 .hit__item:hover .hit__info_hover {
   display: block;
   position: absolute;
